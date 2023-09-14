@@ -1,0 +1,4 @@
+https://matplotlib.org/
+plot : https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+https://www.w3schools.com/python/matplotlib_pyplot.asp
+https://www.geeksforgeeks.org/python-introduction-matplotlib/
