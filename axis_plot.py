@@ -58,6 +58,9 @@ def plot1():
     plt.xticks(list(range(-3, 10)))
     plt.yticks(list(range(-10, 20, 3)))
 
+    '''set background color'''
+    ax.set_facecolor('black') 
+
     # legend denotes that what color 
     # signifies what
     ax.legend(['a', 'b', 'c',"list"])

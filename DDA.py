@@ -1,13 +1,14 @@
 import matplotlib.pyplot as plt
 
 def DDA(x1,y1,x2,y2):
+    
     dx=x2-x1
     dy=y2-y1
 
     steps=max(abs(dx),abs(dy))
 
-    x_inc=steps/steps
-    y_inc=steps/steps
+    x_inc=dx/steps
+    y_inc=dy/steps
 
     x_point=[]
     y_point=[]
@@ -36,8 +37,7 @@ def main():
     y1=int(input("y1 : "))
     x2=int(input("x2 : "))
     y2=int(input("y2 : "))
-
-
+    
     x_point,y_point=DDA(x1,y1,x2,y2)
 
     plt.plot(x_point,y_point)
